@@ -37,9 +37,9 @@ sessionStorage.setItem("dataEmail", email);
 document.getElementById("myEmail").innerHTML = email;
 
 
-var playerOne = Math.floor(Math.random() * 6 + 1);
+var playerOne = Math.floor(Math.random() * 6) + 1;
 
-var playerTwo = Math.floor(Math.random() * 6 + 1);
+var playerTwo = Math.floor(Math.random() * 6) + 1;
 
 document.getElementById("myNumber").innerHTML = 'Il tuo numero è: ' + playerOne;
 document.getElementById("computerNumber").innerHTML = 'Il numero del Computer è: ' + playerTwo;
